@@ -1,0 +1,563 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap')
+@import './variables'
+*
+    margin: 0
+    padding: 0
+    box-sizing: border-box
+    font-family: 'Roboto', sans-serif
+
+.container
+    height: 100vh
+
+.header
+    z-index: 10
+    padding: 14px 43px
+    background-color:#0C0D2E
+    display: flex
+    justify-content: space-between
+    &-right
+        display: flex  
+        align-items: center
+        gap: 28px 
+        &-text
+            color: #fff
+            display: flex
+            gap: 28px
+            p
+                gap: 30px
+        &-bttn
+            &_h
+                width: 164px
+                height: 48px
+                background: transparent
+                color: #fff
+                font-size: 16px
+                border: 2px solid #fff
+                border-radius: 100px
+                transition: all .3s ease-in-out
+                &:hover
+                    background-color: #fff
+                    outline: 1px solid #000
+                    color: #000
+                    font-weight: 500
+                    transition: all .3s ease-in-out
+.appadd
+      background-color: #010225
+      padding: 110px 86px 
+      position: relative
+      z-index: 0
+      
+
+      &-img
+            z-index: 1
+            position: absolute
+            right: -137px
+            top: -93px
+            
+            
+            
+      &-left
+        display: flex
+        flex-direction: column
+        &_text
+            width: 590px
+            p
+                color: #fff
+                font-size: 64px
+                font-weight: 400
+            span
+                padding-top: 30px
+                font-size: 12px
+                color: #fff
+        
+.crypto
+    background-color: #0C0D2E
+    align-items: center
+    justify-content: center
+    display: flex
+    flex-direction: column
+    padding-top: 180px
+    &-info
+        padding-bottom: 40px    
+        width: 699px
+        &-text
+            &_t
+                color: #fff
+                text-align: center
+                font-size: 40px
+                font-weight: 400
+                padding-bottom: 20px
+            &_b
+                color: #fff
+                text-align: center
+                font-size: 18px
+                font-weight: 400
+                line-height: 30px
+    &-appdesc
+        display: flex
+        justify-content: space-between
+        width: 1267px
+        
+
+
+        img
+            width: 30px
+            height: 34px
+            
+
+        p
+            color: #fff
+            font-size: 20px
+            font-weight: 400
+            text-align: center
+            padding: 20px 0
+        
+        span
+            color: #fff
+            font-weight: 400
+            font-size: 11px
+            text-align: center
+            
+        
+        button
+            padding-top: 20px
+            background: transparent
+            border: none
+            font-size: 1rem
+            color: #159BE8
+            cursor: grab
+            font-weight: 400
+
+        &-benefit
+            display: flex
+            flex-direction: column
+            width: 269px
+            align-items: center
+            padding-bottom: 160px   
+
+.app-header
+    background-color: #0C0D2E
+    h2
+        color: #FFF
+        text-align: center
+        font-size: 40px
+        font-weight: 400
+        line-height: 30px
+        padding-bottom: 30px
+    p   
+        color: #FFF
+        text-align: center
+        font-size: 12px
+        font-weight: 400
+        line-height: 30px
+        padding-bottom: 40px
+
+.openapp
+    position: relative
+    &-img
+        position: absolute
+    &-feature
+        background-color: #0C0D2E
+        display: flex
+        align-items: center
+        justify-content: center
+        padding-bottom: 160px
+        p
+            color: #FFF
+            font-size: 20px
+            font-weight: 400
+            line-height: 20px
+            padding-bottom: 10px
+        h3
+            color: #FFF
+            font-size: 16px
+            font-weight: 400
+            line-height: 24px
+            padding-bottom: 73px
+
+        &_text
+            &_l
+                width: 339px
+                text-align: right
+        &_text
+            &_r
+                width: 339px
+                text-align: left
+
+
+
+.appoffer
+    display: flex
+    background-color: #010225
+    padding: 180px 86px
+    justify-content: space-between
+    &-l 
+        display: flex
+        flex-direction: column
+        &-header
+            span
+                color: #159BE8
+                font-size: 18px
+                font-weight: 400
+                line-height: 20px
+                text-transform: uppercase
+            p
+                color: #FFF
+                font-size: 40px
+                font-weight: 400
+                line-height: 54px
+                width: 456px
+                padding: 20px 0
+            h3
+                color: #FFF
+                padding-bottom: 42px
+                font-size: 12px
+                font-weight: 400
+                line-height: 30px
+                width: 617px
+
+        &-benefits
+            display: flex
+            width: 633px
+            padding-bottom: 56px
+            &-left
+                span
+                    color: #FFF
+                    font-size: 20px
+                    font-weight: 400
+                    line-height: 24px
+                p
+                    color: #FFF
+                    font-size: 11px
+                    font-weight: 400
+                    line-height: 24px
+            &-right
+                span
+                    color: #FFF
+                    font-size: 20px
+                    font-weight: 400
+                    line-height: 24px
+                p
+                    color: #FFF
+                    font-size: 11px
+                    font-weight: 400
+                    line-height: 24px
+        &-bttn
+            &_h
+                width: 164px
+                height: 48px
+                background: #159BE8
+                color: #fff
+                font-size: 16px
+                border: 2px solid #159BE8
+                border-radius: 100px
+                transition: all .3s ease-in-out
+                &:hover
+                    background-color: #fff
+                    outline: 1px solid #000
+                    color: #000
+                    font-weight: 500
+                    transition: all .3s ease-in-out
+
+.companies
+    background-color: #010225
+    padding: 180px 90px
+    &-header
+        h2
+            color: #159BE8
+            text-align: center
+            font-size: 18px
+            font-weight: 400
+            line-height: 20px
+            text-transform: uppercase
+            padding-bottom: 20px
+        p
+            color: #FFF
+            text-align: center
+            font-size: 40px
+            font-weight: 400
+            line-height: 54px
+            padding-bottom: 40px
+    &-logos
+        display: flex
+        align-items: center
+        justify-content: space-between
+        padding-bottom: 50px
+    &-creators
+        display: flex
+        justify-content: space-between
+        &-1
+            display: flex
+            flex-direction: column
+
+            &-text
+                width: 350px
+                padding-bottom: 15px    
+                &-stars
+                    display: flex
+                    gap: 5px
+                    padding-bottom: 15px
+                    img
+                        border-radius: 3px
+                        background-color: #212250
+                p
+                    color: #FFF     
+                    font-size: 17px
+                    font-weight: 400
+                    line-height: 30px
+            &-name
+                display: flex
+                gap: 10px
+                &-text
+                    p
+                        color: #FFF
+                        font-size: 18px
+                        font-weight: 400
+                        line-height: 20px
+                        padding-bottom: 5px
+                    span
+                        color: #FFF
+                        font-size: 14px
+                        font-weight: 400
+                        line-height: 16px      
+
+
+
+.license
+    background-color: #010225
+    display: flex
+    flex-direction: column
+    padding: 96px 96px
+    &-header
+        @include centering
+        flex-direction: column
+        p
+            color: #159BE8
+            text-align: center
+            font-size: 18px
+            font-weight: 400
+            line-height: 20px
+            text-transform: uppercase    
+            padding-bottom: 30px      
+        h2
+            color: #FFF
+            text-align: center
+            font-size: 48px
+            font-weight: 400
+            line-height: 30px
+            padding-bottom: 20px
+        h3
+            width: 699px
+            color: #FFF
+            text-align: center
+            font-size: 18px
+            font-weight: 400
+            line-height: 30px
+    &-value
+        @include centering
+        gap: 70px
+        padding-bottom: 100px
+        &-b
+            @include centering
+            background-color: #0C0D2E
+            border-top: 4px solid #159BE8
+            width: 369px
+            height: 415px
+            flex-direction: column
+            gap: 20px
+            &-bttn
+                &-ch
+                    width: 164px
+                    height: 48px
+                    background: transparent
+                    color: #fff
+                    font-size: 16px
+                    border: 2px solid #fff
+                    border-radius: 100px
+                    transition: all .3s ease-in-out
+                    &:hover
+                        background-color: #159BE8
+                        outline: 1px solid #000
+                        color: #fff 
+                        font-weight: 500
+                        transition: all .3s ease-in-out
+        &-r
+            @include centering
+            background-color: #0C0D2E
+            border-top: 4px solid #F95B74
+            width: 369px
+            height: 415px
+            flex-direction: column
+            gap: 20px
+            &-bttn
+                &-ch
+                    width: 164px
+                    height: 48px
+                    background: transparent
+                    color: #fff
+                    font-size: 16px
+                    border: 2px solid #fff
+                    border-radius: 100px
+                    transition: all .3s ease-in-out
+                    &:hover
+                        background-color: #F95B74
+                        outline: 1px solid #000
+                        color: #fff
+                        font-weight: 500
+                        transition: all .3s ease-in-out
+        &-p
+            @include centering
+            background-color: #0C0D2E
+            border-top: 4px solid #7C44E2
+            width: 369px
+            height: 415px
+            flex-direction: column
+            gap: 30px
+            &-bttn
+                &-ch
+                    width: 164px
+                    height: 48px
+                    background: transparent
+                    color: #fff
+                    font-size: 16px
+                    border: 2px solid #fff
+                    border-radius: 100px
+                    transition: all .3s ease-in-out
+                    &:hover
+                        background-color: #7C44E2
+                        outline: 1px solid #000
+                        color: #fff
+                        font-weight: 500
+                        transition: all .3s ease-in-out
+        p
+            color: #FFF
+            font-size: 30px
+            font-weight: 400
+            line-height: 42px
+        span
+            color: #FFF
+            font-size: 40px
+            font-weight: 400
+            line-height: 42px
+        h3
+            color: #FFF
+            text-align: center
+            font-size: 16px
+            font-weight: 400
+            line-height: 42px
+            width: 320px
+
+
+
+    &-buy
+        display: flex   
+        flex-direction: column
+        background-color:#0C0D2E
+        padding: 140px 0
+        &-text
+            @include centering
+            flex-direction: column  
+            
+            p
+                color: #FFF
+                text-align: center
+                font-size: 40px
+                font-weight: 400
+                line-height: 54px
+                padding-bottom: 30px
+                
+            h3
+                color: #FFF
+                text-align: center
+                font-size: 18px
+                font-weight: 400
+                line-height: 54px
+                padding-bottom: 30px
+                width: 700px
+        &-bttn
+            @include centering  
+            gap: 20px
+            &-l
+                width: 164px
+                height: 48px
+                background: transparent
+                color: #fff
+                font-size: 16px                    
+                border: 2px solid #fff
+                border-radius: 100px
+                transition: all .3s ease-in-out
+                &:hover
+                    background-color: red 
+                    border: none                       
+                    outline: 1px solid #000
+                    color: #fff
+                    font-weight: 500
+                    transition: all .3s ease-in-out    
+
+
+.footer
+    background-color: #0C0D2E  
+    @include centering
+    height: 483px
+    flex-direction: column
+    justify-content: space-between
+    padding: 60px 0 45px 0
+    &-sites
+        display: flex
+        gap: 20px
+    input
+        border-radius: 1px
+        border: 2px solid #282B53
+        background: #010225
+        width: 400px
+        height: 48px
+        color: #fff
+        font-size: 18px
+    span
+        color: #FFF
+        text-align: center
+        font-size: 18px
+        font-weight: 400
+        line-height: 20px   
+    p
+        color: #FFF
+        text-align: center
+        font-size: 30px
+        font-weight: 400
+        line-height: 20px        
+    h2
+        color: #FFF
+        text-align: center
+        font-size: 24px
+        font-weight: 400
+        line-height: 20px  
+    &-bttn
+        @include centering  
+        gap: 20px
+        &-login
+            width: 164px
+            height: 48px
+            background: transparent
+            color: #fff
+            font-size: 16px                    
+            border: 2px solid #fff
+            border-radius: 100px
+            transition: all .3s ease-in-out
+            &:hover
+                background-color: #159BE8
+                border: none                       
+                outline: 1px solid #000
+                color: #fff
+                font-weight: 500
+                transition: all .3s ease-in-out    
+    
+
+
+
+
+
+
+
+
+
+            
